@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans',sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+  }
+
+ul li a{text-decoration: none;
+        color: #ffff;
+ } 
+
+.menu{
+     display: flex;
+     max-width: 992px;
+     min-width: 320px;
+     justify-content: space-between;
+     margin: 0 auto;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: center;
+     height: 100%;
+    }
+
+    header{
+        width: 100%;
+        background-color: #132f5c;
+        height: 100px;
+        color: #ffff    
+            }
+
+    .list-item{
+        display: flex;
+        width: 260px;
+        justify-content: space-between;
+    }        
+
+    .apresentacao{
+        /*vh= unidade de medida equivalente a altura do viewport ou seja se o viewport for 1000px, 60vh sera 60% dos 1000px*/  
+        height: 60vh;
+        display: flex;       
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao .txt-apresentacao{
+        height: 200px;
+    }
+      
+    .txt-apresentacao h2{
+        color: #122a57;
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        width: 220px;
+        height: 50px;
+        background-color: #122a57;    
+        color: #ffff;
+        display: inline-block;   
+        border-radius: 30px;
+        text-align: center;
+        line-height: 50px;
+
+    }
