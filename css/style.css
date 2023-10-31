@@ -33,6 +33,12 @@ ul li a{text-decoration: none;
         color: #ffff    
             }
 
+    .container{
+     max-width: 992px;
+     min-width: 320px;
+     margin: 0 auto;
+     }
+
     .list-item{
         display: flex;
         width: 260px;
@@ -66,5 +72,45 @@ ul li a{text-decoration: none;
         border-radius: 30px;
         text-align: center;
         line-height: 50px;
-
+        text-decoration: none;
+        margin-top: 10px;
     }
+
+    .quem-somos{
+        display: flex;
+        flex-direction: row-reverse ;
+    }
+    .quem-somos h2{
+        font-size: 32px;
+        color: #122A57;
+        margin-bottom: 20px;
+        border-left: 4px solid #122A57;
+        padding-left: 10px;
+    }   
+
+       
+    .container-externo{
+        background-color: #122A57;
+        width: 100%;
+    
+    }
+
+    #servicos{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 100pox;
+    }
+
+    #servicos h2{
+        color: #fff;
+        font-size: 32px;
+        margin-bottom: 20px;                
+    }
+
+    .list-servicos{
+       display: flex; 
+       justify-content: space-between;
+    }
+    
+  
